@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		126A83A72A508036000C35C7 /* OuiNomadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83A62A508036000C35C7 /* OuiNomadApp.swift */; };
+		126A83AB2A508037000C35C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126A83AA2A508037000C35C7 /* Assets.xcassets */; };
+		126A83AF2A508037000C35C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126A83AE2A508037000C35C7 /* Preview Assets.xcassets */; };
+		126A83B62A508042000C35C7 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83B52A508042000C35C7 /* SignUpView.swift */; };
+		126A83B82A508047000C35C7 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83B72A508047000C35C7 /* SignInView.swift */; };
+		126A83BA2A508058000C35C7 /* ClientsMissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83B92A508058000C35C7 /* ClientsMissionView.swift */; };
+		126A83C02A508181000C35C7 /* MissionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83BF2A508181000C35C7 /* MissionRow.swift */; };
+		126A83C72A50846E000C35C7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 126A83C62A50846E000C35C7 /* FirebaseAuth */; };
+		126A83C92A50846E000C35C7 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 126A83C82A50846E000C35C7 /* FirebaseDatabase */; };
+		126A83CB2A50846E000C35C7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 126A83CA2A50846E000C35C7 /* FirebaseFirestore */; };
+		126A83CD2A50846E000C35C7 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 126A83CC2A50846E000C35C7 /* FirebaseFirestoreCombine-Community */; };
+		126A83CF2A50846E000C35C7 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 126A83CE2A50846E000C35C7 /* FirebaseFirestoreSwift */; };
+		126A83D12A50846E000C35C7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 126A83D02A50846E000C35C7 /* FirebaseStorage */; };
+		126A83D32A50848D000C35C7 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83D22A50848D000C35C7 /* SignInViewModel.swift */; };
+		126A83D62A5084BD000C35C7 /* CurrentUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83D52A5084BD000C35C7 /* CurrentUserManager.swift */; };
+		126A83D82A5084F3000C35C7 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83D72A5084F3000C35C7 /* ErrorWrapper.swift */; };
+		126A83DA2A508521000C35C7 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83D92A508521000C35C7 /* Dependencies.swift */; };
+		126A83DE2A5085EC000C35C7 /* AppDimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83DD2A5085EC000C35C7 /* AppDimensions.swift */; };
+		126A83E12A508631000C35C7 /* LogField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83E02A508631000C35C7 /* LogField.swift */; };
+		126A83E32A50863A000C35C7 /* SecureLogField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83E22A50863A000C35C7 /* SecureLogField.swift */; };
+		126A83E52A50865B000C35C7 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83E42A50865B000C35C7 /* Strings.swift */; };
+		126A83E82A50869A000C35C7 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83E72A50869A000C35C7 /* View+Extension.swift */; };
+		126A83EA2A5086D6000C35C7 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83E92A5086D6000C35C7 /* SignUpViewModel.swift */; };
+		126A83EC2A508A33000C35C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 126A83EB2A508A33000C35C7 /* GoogleService-Info.plist */; };
+		126A83F12A5093BD000C35C7 /* UserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83F02A5093BD000C35C7 /* UserType.swift */; };
+		126A83F32A50962E000C35C7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83F22A50962E000C35C7 /* HomeView.swift */; };
+		126A83F52A509643000C35C7 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83F42A509643000C35C7 /* HomeViewModel.swift */; };
+		126A83F72A50A42F000C35C7 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83F62A50A42F000C35C7 /* OnboardingScreen.swift */; };
+		126A83F92A50A810000C35C7 /* OnboardingScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83F82A50A810000C35C7 /* OnboardingScreenViewModel.swift */; };
+		126A83FB2A50AAB3000C35C7 /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83FA2A50AAB3000C35C7 /* FormTextField.swift */; };
+		126A83FD2A515F67000C35C7 /* ClientMissionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83FC2A515F67000C35C7 /* ClientMissionViewModel.swift */; };
+		126A83FF2A515FBF000C35C7 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A83FE2A515FBF000C35C7 /* Mission.swift */; };
+		126A84012A515FCE000C35C7 /* UserClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A84002A515FCE000C35C7 /* UserClient.swift */; };
+		126A84032A515FD7000C35C7 /* UserNomad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A84022A515FD7000C35C7 /* UserNomad.swift */; };
+		126A84052A516B22000C35C7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A84042A516B22000C35C7 /* SettingsView.swift */; };
+		126A84072A516B29000C35C7 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A84062A516B29000C35C7 /* SettingsViewModel.swift */; };
+		126A84092A516BE9000C35C7 /* NomadMissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A84082A516BE9000C35C7 /* NomadMissionsView.swift */; };
+		126A840E2A516D53000C35C7 /* CreateMissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A840D2A516D53000C35C7 /* CreateMissionView.swift */; };
+		126A84102A520321000C35C7 /* CreateMissionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A840F2A520321000C35C7 /* CreateMissionViewModel.swift */; };
+		126A84132A52055B000C35C7 /* CoreLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A84122A52055B000C35C7 /* CoreLocationManager.swift */; };
+		126A84172A52C99D000C35C7 /* EditMissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A84162A52C99D000C35C7 /* EditMissionView.swift */; };
+		126A84192A52CACE000C35C7 /* EditMissionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A84182A52CACE000C35C7 /* EditMissionViewModel.swift */; };
+		126A841B2A52CC43000C35C7 /* ProfilesType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A841A2A52CC43000C35C7 /* ProfilesType.swift */; };
+		126A841D2A52D16A000C35C7 /* NomadMissionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A841C2A52D16A000C35C7 /* NomadMissionsViewModel.swift */; };
+		126A841F2A52E5BA000C35C7 /* NomadMissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A841E2A52E5BA000C35C7 /* NomadMissionView.swift */; };
+		126A84212A52EE21000C35C7 /* MiniMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A84202A52EE21000C35C7 /* MiniMapView.swift */; };
+		12C08D7E2A540E8600099AFC /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C08D7D2A540E8600099AFC /* Date+Extension.swift */; };
+		12E4385E2A55573F000565D7 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 12E4385D2A55573F000565D7 /* FirebaseMessaging */; };
+		12E438602A557227000565D7 /* NotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4385F2A557227000565D7 /* NotificationType.swift */; };
+		12E438622A5572E1000565D7 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E438612A5572E1000565D7 /* NotificationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		126A83A32A508036000C35C7 /* OuiNomad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OuiNomad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		126A83A62A508036000C35C7 /* OuiNomadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuiNomadApp.swift; sourceTree = "<group>"; };
+		126A83AA2A508037000C35C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		126A83AC2A508037000C35C7 /* OuiNomad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OuiNomad.entitlements; sourceTree = "<group>"; };
+		126A83AE2A508037000C35C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		126A83B52A508042000C35C7 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		126A83B72A508047000C35C7 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		126A83B92A508058000C35C7 /* ClientsMissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsMissionView.swift; sourceTree = "<group>"; };
+		126A83BF2A508181000C35C7 /* MissionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionRow.swift; sourceTree = "<group>"; };
+		126A83D22A50848D000C35C7 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		126A83D52A5084BD000C35C7 /* CurrentUserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserManager.swift; sourceTree = "<group>"; };
+		126A83D72A5084F3000C35C7 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		126A83D92A508521000C35C7 /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
+		126A83DD2A5085EC000C35C7 /* AppDimensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDimensions.swift; sourceTree = "<group>"; };
+		126A83E02A508631000C35C7 /* LogField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogField.swift; sourceTree = "<group>"; };
+		126A83E22A50863A000C35C7 /* SecureLogField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureLogField.swift; sourceTree = "<group>"; };
+		126A83E42A50865B000C35C7 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		126A83E72A50869A000C35C7 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		126A83E92A5086D6000C35C7 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		126A83EB2A508A33000C35C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		126A83F02A5093BD000C35C7 /* UserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserType.swift; sourceTree = "<group>"; };
+		126A83F22A50962E000C35C7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		126A83F42A509643000C35C7 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		126A83F62A50A42F000C35C7 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
+		126A83F82A50A810000C35C7 /* OnboardingScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreenViewModel.swift; sourceTree = "<group>"; };
+		126A83FA2A50AAB3000C35C7 /* FormTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextField.swift; sourceTree = "<group>"; };
+		126A83FC2A515F67000C35C7 /* ClientMissionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientMissionViewModel.swift; sourceTree = "<group>"; };
+		126A83FE2A515FBF000C35C7 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		126A84002A515FCE000C35C7 /* UserClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserClient.swift; sourceTree = "<group>"; };
+		126A84022A515FD7000C35C7 /* UserNomad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNomad.swift; sourceTree = "<group>"; };
+		126A84042A516B22000C35C7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		126A84062A516B29000C35C7 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		126A84082A516BE9000C35C7 /* NomadMissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomadMissionsView.swift; sourceTree = "<group>"; };
+		126A840D2A516D53000C35C7 /* CreateMissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMissionView.swift; sourceTree = "<group>"; };
+		126A840F2A520321000C35C7 /* CreateMissionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMissionViewModel.swift; sourceTree = "<group>"; };
+		126A84122A52055B000C35C7 /* CoreLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreLocationManager.swift; sourceTree = "<group>"; };
+		126A84162A52C99D000C35C7 /* EditMissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMissionView.swift; sourceTree = "<group>"; };
+		126A84182A52CACE000C35C7 /* EditMissionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMissionViewModel.swift; sourceTree = "<group>"; };
+		126A841A2A52CC43000C35C7 /* ProfilesType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesType.swift; sourceTree = "<group>"; };
+		126A841C2A52D16A000C35C7 /* NomadMissionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomadMissionsViewModel.swift; sourceTree = "<group>"; };
+		126A841E2A52E5BA000C35C7 /* NomadMissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomadMissionView.swift; sourceTree = "<group>"; };
+		126A84202A52EE21000C35C7 /* MiniMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMapView.swift; sourceTree = "<group>"; };
+		12C08D7D2A540E8600099AFC /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		12E4385F2A557227000565D7 /* NotificationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationType.swift; sourceTree = "<group>"; };
+		12E438612A5572E1000565D7 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		126A83A02A508036000C35C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126A83CF2A50846E000C35C7 /* FirebaseFirestoreSwift in Frameworks */,
+				126A83C92A50846E000C35C7 /* FirebaseDatabase in Frameworks */,
+				12E4385E2A55573F000565D7 /* FirebaseMessaging in Frameworks */,
+				126A83CD2A50846E000C35C7 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				126A83C72A50846E000C35C7 /* FirebaseAuth in Frameworks */,
+				126A83CB2A50846E000C35C7 /* FirebaseFirestore in Frameworks */,
+				126A83D12A50846E000C35C7 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		126A839A2A508036000C35C7 = {
+			isa = PBXGroup;
+			children = (
+				126A83EB2A508A33000C35C7 /* GoogleService-Info.plist */,
+				126A83A52A508036000C35C7 /* OuiNomad */,
+				126A83A42A508036000C35C7 /* Products */,
+				12E4385C2A55573F000565D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		126A83A42A508036000C35C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				126A83A32A508036000C35C7 /* OuiNomad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		126A83A52A508036000C35C7 /* OuiNomad */ = {
+			isa = PBXGroup;
+			children = (
+				126A840B2A516D18000C35C7 /* Views */,
+				126A83D42A5084B3000C35C7 /* Utilities */,
+				126A83E62A508690000C35C7 /* Extensions */,
+				126A83EF2A5093B5000C35C7 /* Models */,
+				126A83AA2A508037000C35C7 /* Assets.xcassets */,
+				126A83AC2A508037000C35C7 /* OuiNomad.entitlements */,
+				126A83AD2A508037000C35C7 /* Preview Content */,
+			);
+			path = OuiNomad;
+			sourceTree = "<group>";
+		};
+		126A83AD2A508037000C35C7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				126A83AE2A508037000C35C7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		126A83C22A50819A000C35C7 /* SignIn+SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				126A83B52A508042000C35C7 /* SignUpView.swift */,
+				126A83E92A5086D6000C35C7 /* SignUpViewModel.swift */,
+				126A83B72A508047000C35C7 /* SignInView.swift */,
+				126A83D22A50848D000C35C7 /* SignInViewModel.swift */,
+				126A83F62A50A42F000C35C7 /* OnboardingScreen.swift */,
+				126A83F82A50A810000C35C7 /* OnboardingScreenViewModel.swift */,
+			);
+			path = "SignIn+SignUp";
+			sourceTree = "<group>";
+		};
+		126A83D42A5084B3000C35C7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				126A84112A520544000C35C7 /* Managers */,
+				126A83D72A5084F3000C35C7 /* ErrorWrapper.swift */,
+				126A83DD2A5085EC000C35C7 /* AppDimensions.swift */,
+				126A83E42A50865B000C35C7 /* Strings.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		126A83DF2A508625000C35C7 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				126A83BF2A508181000C35C7 /* MissionRow.swift */,
+				126A83E02A508631000C35C7 /* LogField.swift */,
+				126A83E22A50863A000C35C7 /* SecureLogField.swift */,
+				126A83FA2A50AAB3000C35C7 /* FormTextField.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		126A83E62A508690000C35C7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				126A83E72A50869A000C35C7 /* View+Extension.swift */,
+				12C08D7D2A540E8600099AFC /* Date+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		126A83ED2A5092CB000C35C7 /* ClientView */ = {
+			isa = PBXGroup;
+			children = (
+				126A83B92A508058000C35C7 /* ClientsMissionView.swift */,
+				126A83FC2A515F67000C35C7 /* ClientMissionViewModel.swift */,
+				126A840D2A516D53000C35C7 /* CreateMissionView.swift */,
+				126A840F2A520321000C35C7 /* CreateMissionViewModel.swift */,
+				126A84162A52C99D000C35C7 /* EditMissionView.swift */,
+				126A84182A52CACE000C35C7 /* EditMissionViewModel.swift */,
+			);
+			path = ClientView;
+			sourceTree = "<group>";
+		};
+		126A83EE2A5092D5000C35C7 /* NomadView */ = {
+			isa = PBXGroup;
+			children = (
+				126A84082A516BE9000C35C7 /* NomadMissionsView.swift */,
+				126A841C2A52D16A000C35C7 /* NomadMissionsViewModel.swift */,
+				126A841E2A52E5BA000C35C7 /* NomadMissionView.swift */,
+				126A84202A52EE21000C35C7 /* MiniMapView.swift */,
+			);
+			path = NomadView;
+			sourceTree = "<group>";
+		};
+		126A83EF2A5093B5000C35C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				126A83FE2A515FBF000C35C7 /* Mission.swift */,
+				126A83F02A5093BD000C35C7 /* UserType.swift */,
+				126A84002A515FCE000C35C7 /* UserClient.swift */,
+				126A84022A515FD7000C35C7 /* UserNomad.swift */,
+				126A841A2A52CC43000C35C7 /* ProfilesType.swift */,
+				12E4385F2A557227000565D7 /* NotificationType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		126A840A2A516CFB000C35C7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				126A84042A516B22000C35C7 /* SettingsView.swift */,
+				126A84062A516B29000C35C7 /* SettingsViewModel.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		126A840B2A516D18000C35C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				126A83DF2A508625000C35C7 /* CustomViews */,
+				126A840A2A516CFB000C35C7 /* Settings */,
+				126A83EE2A5092D5000C35C7 /* NomadView */,
+				126A83ED2A5092CB000C35C7 /* ClientView */,
+				126A83C22A50819A000C35C7 /* SignIn+SignUp */,
+				126A83A62A508036000C35C7 /* OuiNomadApp.swift */,
+				126A83F22A50962E000C35C7 /* HomeView.swift */,
+				126A83F42A509643000C35C7 /* HomeViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		126A84112A520544000C35C7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				126A83D92A508521000C35C7 /* Dependencies.swift */,
+				126A83D52A5084BD000C35C7 /* CurrentUserManager.swift */,
+				126A84122A52055B000C35C7 /* CoreLocationManager.swift */,
+				12E438612A5572E1000565D7 /* NotificationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		12E4385C2A55573F000565D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		126A83A22A508036000C35C7 /* OuiNomad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 126A83B22A508037000C35C7 /* Build configuration list for PBXNativeTarget "OuiNomad" */;
+			buildPhases = (
+				126A839F2A508036000C35C7 /* Sources */,
+				126A83A02A508036000C35C7 /* Frameworks */,
+				126A83A12A508036000C35C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OuiNomad;
+			packageProductDependencies = (
+				126A83C62A50846E000C35C7 /* FirebaseAuth */,
+				126A83C82A50846E000C35C7 /* FirebaseDatabase */,
+				126A83CA2A50846E000C35C7 /* FirebaseFirestore */,
+				126A83CC2A50846E000C35C7 /* FirebaseFirestoreCombine-Community */,
+				126A83CE2A50846E000C35C7 /* FirebaseFirestoreSwift */,
+				126A83D02A50846E000C35C7 /* FirebaseStorage */,
+				12E4385D2A55573F000565D7 /* FirebaseMessaging */,
+			);
+			productName = OuiNomad;
+			productReference = 126A83A32A508036000C35C7 /* OuiNomad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		126A839B2A508036000C35C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					126A83A22A508036000C35C7 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 126A839E2A508036000C35C7 /* Build configuration list for PBXProject "OuiNomad" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 126A839A2A508036000C35C7;
+			packageReferences = (
+				126A83C52A50846E000C35C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 126A83A42A508036000C35C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				126A83A22A508036000C35C7 /* OuiNomad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		126A83A12A508036000C35C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126A83AF2A508037000C35C7 /* Preview Assets.xcassets in Resources */,
+				126A83EC2A508A33000C35C7 /* GoogleService-Info.plist in Resources */,
+				126A83AB2A508037000C35C7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		126A839F2A508036000C35C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126A83E12A508631000C35C7 /* LogField.swift in Sources */,
+				126A83DE2A5085EC000C35C7 /* AppDimensions.swift in Sources */,
+				126A83DA2A508521000C35C7 /* Dependencies.swift in Sources */,
+				126A841D2A52D16A000C35C7 /* NomadMissionsViewModel.swift in Sources */,
+				126A84012A515FCE000C35C7 /* UserClient.swift in Sources */,
+				126A83F52A509643000C35C7 /* HomeViewModel.swift in Sources */,
+				126A84212A52EE21000C35C7 /* MiniMapView.swift in Sources */,
+				126A83FD2A515F67000C35C7 /* ClientMissionViewModel.swift in Sources */,
+				126A83B62A508042000C35C7 /* SignUpView.swift in Sources */,
+				126A83C02A508181000C35C7 /* MissionRow.swift in Sources */,
+				126A83EA2A5086D6000C35C7 /* SignUpViewModel.swift in Sources */,
+				126A84092A516BE9000C35C7 /* NomadMissionsView.swift in Sources */,
+				126A83D82A5084F3000C35C7 /* ErrorWrapper.swift in Sources */,
+				126A83BA2A508058000C35C7 /* ClientsMissionView.swift in Sources */,
+				126A84132A52055B000C35C7 /* CoreLocationManager.swift in Sources */,
+				126A83D32A50848D000C35C7 /* SignInViewModel.swift in Sources */,
+				126A840E2A516D53000C35C7 /* CreateMissionView.swift in Sources */,
+				12C08D7E2A540E8600099AFC /* Date+Extension.swift in Sources */,
+				126A83D62A5084BD000C35C7 /* CurrentUserManager.swift in Sources */,
+				126A84192A52CACE000C35C7 /* EditMissionViewModel.swift in Sources */,
+				126A83E52A50865B000C35C7 /* Strings.swift in Sources */,
+				126A83E32A50863A000C35C7 /* SecureLogField.swift in Sources */,
+				12E438622A5572E1000565D7 /* NotificationManager.swift in Sources */,
+				126A83B82A508047000C35C7 /* SignInView.swift in Sources */,
+				126A83F12A5093BD000C35C7 /* UserType.swift in Sources */,
+				126A83A72A508036000C35C7 /* OuiNomadApp.swift in Sources */,
+				126A83F92A50A810000C35C7 /* OnboardingScreenViewModel.swift in Sources */,
+				126A84102A520321000C35C7 /* CreateMissionViewModel.swift in Sources */,
+				126A83FB2A50AAB3000C35C7 /* FormTextField.swift in Sources */,
+				126A83F72A50A42F000C35C7 /* OnboardingScreen.swift in Sources */,
+				126A84172A52C99D000C35C7 /* EditMissionView.swift in Sources */,
+				126A83E82A50869A000C35C7 /* View+Extension.swift in Sources */,
+				12E438602A557227000565D7 /* NotificationType.swift in Sources */,
+				126A841B2A52CC43000C35C7 /* ProfilesType.swift in Sources */,
+				126A84032A515FD7000C35C7 /* UserNomad.swift in Sources */,
+				126A83FF2A515FBF000C35C7 /* Mission.swift in Sources */,
+				126A83F32A50962E000C35C7 /* HomeView.swift in Sources */,
+				126A84052A516B22000C35C7 /* SettingsView.swift in Sources */,
+				126A841F2A52E5BA000C35C7 /* NomadMissionView.swift in Sources */,
+				126A84072A516B29000C35C7 /* SettingsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		126A83B02A508037000C35C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		126A83B12A508037000C35C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		126A83B32A508037000C35C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OuiNomad/OuiNomad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OuiNomad/Preview Content\"";
+				DEVELOPMENT_TEAM = QN5JJ5XQZ6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(PRODUCT_BUNDLE_PACKAGE_TYPE)";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ouinomad.OuiNomad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		126A83B42A508037000C35C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OuiNomad/OuiNomad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OuiNomad/Preview Content\"";
+				DEVELOPMENT_TEAM = QN5JJ5XQZ6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(PRODUCT_BUNDLE_PACKAGE_TYPE)";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ouinomad.OuiNomad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		126A839E2A508036000C35C7 /* Build configuration list for PBXProject "OuiNomad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126A83B02A508037000C35C7 /* Debug */,
+				126A83B12A508037000C35C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		126A83B22A508037000C35C7 /* Build configuration list for PBXNativeTarget "OuiNomad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126A83B32A508037000C35C7 /* Debug */,
+				126A83B42A508037000C35C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		126A83C52A50846E000C35C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		126A83C62A50846E000C35C7 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 126A83C52A50846E000C35C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		126A83C82A50846E000C35C7 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 126A83C52A50846E000C35C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		126A83CA2A50846E000C35C7 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 126A83C52A50846E000C35C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		126A83CC2A50846E000C35C7 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 126A83C52A50846E000C35C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		126A83CE2A50846E000C35C7 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 126A83C52A50846E000C35C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		126A83D02A50846E000C35C7 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 126A83C52A50846E000C35C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		12E4385D2A55573F000565D7 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 126A83C52A50846E000C35C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 126A839B2A508036000C35C7 /* Project object */;
+}

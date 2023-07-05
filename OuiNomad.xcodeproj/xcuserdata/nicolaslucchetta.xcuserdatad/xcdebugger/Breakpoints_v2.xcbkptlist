@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "994DFAB3-B109-4742-8989-BA852C7E87E9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F17E6AC-C29E-430B-AD33-69D04E11A220"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OuiNomad/AuthenticationComponent/SignUpViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "register()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4F17E6AC-C29E-430B-AD33-69D04E11A220 - 359adce65814e78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;__C.FIRUser&gt;, Swift.Error&gt;) -&gt; () in OuiNomad.SignUpViewModel.register() -&gt; ()"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/AuthenticationComponent/SignUpViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "4F17E6AC-C29E-430B-AD33-69D04E11A220 - 359adce65814e9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;__C.FIRUser&gt;, Swift.Error&gt;) -&gt; () in OuiNomad.SignUpViewModel.register() -&gt; ()"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/AuthenticationComponent/SignUpViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F1483FF-5CAB-4352-84FA-2C5A6F4DFA20"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OuiNomad/AuthenticationComponent/SignUpViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "register()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3F1483FF-5CAB-4352-84FA-2C5A6F4DFA20 - 359adce65814edd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;__C.FIRUser&gt;, Swift.Error&gt;) -&gt; () in OuiNomad.SignUpViewModel.register() -&gt; ()"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/AuthenticationComponent/SignUpViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "3F1483FF-5CAB-4352-84FA-2C5A6F4DFA20 - 359adce65814edd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;__C.FIRUser&gt;, Swift.Error&gt;) -&gt; () in OuiNomad.SignUpViewModel.register() -&gt; ()"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/AuthenticationComponent/SignUpViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83430FA5-01CF-49E6-AAD2-3D4B25D70C18"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OuiNomad/AuthenticationComponent/OnboardingScreenViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "saveUserToFirestore(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43D405A6-A45B-4EC7-B8FB-D4611CAEF1E5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OuiNomad/AuthenticationComponent/OnboardingScreenViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "saveUserToFirestore(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47505DFB-71B0-4516-BDDF-1EF0FD3B642D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OuiNomad/AuthenticationComponent/OnboardingScreenViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "saveUserToFirestore(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D2567D3A-FF74-461A-B519-8289185B1C31"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OuiNomad/AuthenticationComponent/OnboardingScreenViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "saveUserToFirestore(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CA3C5D62-7A72-47B8-8E55-AD232D4D8661"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OuiNomad/AuthenticationComponent/OnboardingScreenViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "saveUserToFirestore(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "520DC3A5-D7DA-40D8-A696-A64947C620CF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OuiNomad/AuthenticationComponent/OnboardingScreenViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "saveUserToFirestore(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BFC76512-C0B2-47B6-BB0C-B9FC39FBD0C6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OuiNomad/Views/ClientView/CreateMissionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "BFC76512-C0B2-47B6-BB0C-B9FC39FBD0C6 - 6038e7ef108f7b40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.background&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(_: &#x3c4;_1_0, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in OuiNomad.CreateMissionView.body.getter : some"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/Views/ClientView/CreateMissionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "BFC76512-C0B2-47B6-BB0C-B9FC39FBD0C6 - 6038e7ef108f7b40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.background&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(_: &#x3c4;_1_0, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in OuiNomad.CreateMissionView.body.getter : some"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/Views/ClientView/CreateMissionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "BFC76512-C0B2-47B6-BB0C-B9FC39FBD0C6 - 6038e7ef108f7b9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.background&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(_: &#x3c4;_1_0, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in OuiNomad.CreateMissionView.body.getter : some"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/Views/ClientView/CreateMissionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "BFC76512-C0B2-47B6-BB0C-B9FC39FBD0C6 - 3c795a38ec1ccdb0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.background&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(_: &#x3c4;_1_0, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: SwiftUI.ToolbarContent, &#x3c4;_0_1: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0, &#x3c4;_0_1) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in OuiNomad.CreateMissionView.body.getter : some"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/Views/ClientView/CreateMissionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "188">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59489C16-39ED-40DA-88C7-91E00846DE4B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OuiNomad/Views/ClientView/CreateMissionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "59489C16-39ED-40DA-88C7-91E00846DE4B - 6038e7ef108f7882"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.background&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(_: &#x3c4;_1_0, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in OuiNomad.CreateMissionView.body.getter : some"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/Views/ClientView/CreateMissionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "59489C16-39ED-40DA-88C7-91E00846DE4B - 6038e7ef108f7882"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.background&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(_: &#x3c4;_1_0, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in OuiNomad.CreateMissionView.body.getter : some"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/Views/ClientView/CreateMissionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  uuid = "59489C16-39ED-40DA-88C7-91E00846DE4B - 6038e7ef108f7b25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.background&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(_: &#x3c4;_1_0, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in OuiNomad.CreateMissionView.body.getter : some"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/Views/ClientView/CreateMissionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  uuid = "59489C16-39ED-40DA-88C7-91E00846DE4B - 3c795a38ec1ccdce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.background&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(_: &#x3c4;_1_0, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: SwiftUI.ToolbarContent, &#x3c4;_0_1: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0, &#x3c4;_0_1) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in OuiNomad.CreateMissionView.body.getter : some"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/Views/ClientView/CreateMissionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "324">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C25E40E-79DC-4965-80BD-FF59D03D7531"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OuiNomad/Views/ClientView/CreateMissionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "saveMissionToDB()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9C25E40E-79DC-4965-80BD-FF59D03D7531 - 65fb8879a8939d64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OuiNomad.CreateMissionViewModel.saveMissionToDB() -&gt; ()"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/Views/ClientView/CreateMissionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "1548">
+               </Location>
+               <Location
+                  uuid = "9C25E40E-79DC-4965-80BD-FF59D03D7531 - 5973dbcd4eadcb44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in OuiNomad.CreateMissionViewModel.saveMissionToDB() -&gt; ()"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/Views/ClientView/CreateMissionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "9C25E40E-79DC-4965-80BD-FF59D03D7531 - 65fb8879a8939d0b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OuiNomad.CreateMissionViewModel.saveMissionToDB() -&gt; ()"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/Views/ClientView/CreateMissionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "1332">
+               </Location>
+               <Location
+                  uuid = "9C25E40E-79DC-4965-80BD-FF59D03D7531 - 5973dbcd4eadcb65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in OuiNomad.CreateMissionViewModel.saveMissionToDB() -&gt; ()"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/Views/ClientView/CreateMissionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "9C25E40E-79DC-4965-80BD-FF59D03D7531 - 65fb8879a8939d45"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OuiNomad.CreateMissionViewModel.saveMissionToDB() -&gt; ()"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/Views/ClientView/CreateMissionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "1492">
+               </Location>
+               <Location
+                  uuid = "9C25E40E-79DC-4965-80BD-FF59D03D7531 - 5973dbcd4eadcaa7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in OuiNomad.CreateMissionViewModel.saveMissionToDB() -&gt; ()"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/Views/ClientView/CreateMissionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "312CC90F-F72B-4C2C-9506-0098081DCE5C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OuiNomad/Utilities/Managers/CurrentUserManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "fetchUserType()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "06DBA087-0630-47B5-A0DD-E492C5C9A2AF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OuiNomad/Utilities/Managers/CurrentUserManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "fetchUserType()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3A3B7BD-7889-4C22-BFC7-C0ACE179D145"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OuiNomad/Utilities/Managers/CurrentUserManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "fetchUserType()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F3A3B7BD-7889-4C22-BFC7-C0ACE179D145 - 7520dd7f29647c59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in OuiNomad.CurrentUserManager.fetchUserType() -&gt; ()"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/Utilities/Managers/CurrentUserManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "1240">
+               </Location>
+               <Location
+                  uuid = "F3A3B7BD-7889-4C22-BFC7-C0ACE179D145 - 7520dd7f29647c59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in OuiNomad.CurrentUserManager.fetchUserType() -&gt; ()"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/Utilities/Managers/CurrentUserManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "1516">
+               </Location>
+               <Location
+                  uuid = "F3A3B7BD-7889-4C22-BFC7-C0ACE179D145 - 7520dd7f29647c36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in OuiNomad.CurrentUserManager.fetchUserType() -&gt; ()"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/Utilities/Managers/CurrentUserManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "1420">
+               </Location>
+               <Location
+                  uuid = "F3A3B7BD-7889-4C22-BFC7-C0ACE179D145 - 7520dd7f29647c36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in OuiNomad.CurrentUserManager.fetchUserType() -&gt; ()"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/Utilities/Managers/CurrentUserManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "1696">
+               </Location>
+               <Location
+                  uuid = "F3A3B7BD-7889-4C22-BFC7-C0ACE179D145 - 7520dd7f29647dd5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in OuiNomad.CurrentUserManager.fetchUserType() -&gt; ()"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/Utilities/Managers/CurrentUserManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "1420">
+               </Location>
+               <Location
+                  uuid = "F3A3B7BD-7889-4C22-BFC7-C0ACE179D145 - 7520dd7f29647dd5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in OuiNomad.CurrentUserManager.fetchUserType() -&gt; ()"
+                  moduleName = "OuiNomad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaslucchetta/Desktop/OuiNomad/OuiNomad/Utilities/Managers/CurrentUserManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "1696">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6057F4B2-48A6-48FB-A6A8-B23227358A9B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OuiNomad/Utilities/Managers/CurrentUserManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "fetchUserType()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8053E8FD-8383-43A3-AF4E-721552A2DBB2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OuiNomad/Utilities/Managers/CurrentUserManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "fetchUserType()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
