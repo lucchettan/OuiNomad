@@ -99,9 +99,7 @@ class EditMissionViewModel: ObservableObject {
             print("Mission ID is nil")
             return
         }
-        
-       
-        
+
         let missionRef = Firestore.firestore().collection("Missions").document(missionID)
         
         missionRef.setData(mission.toDictionary()) { error in
@@ -135,4 +133,25 @@ class EditMissionViewModel: ObservableObject {
         self.mission.nomadFCMToken = ""
         updateMission()
     }
+    
+    func deleteMission() {
+         guard let missionID = mission.documentID else {
+             print("Mission ID is nil")
+             return
+         }
+        
+        if let deviceToken = mission.nomadFCMToken {
+            NotificationManager.sendNotificationToUser(deviceToken: deviceToken, notificationType: .deleted, missionTitle: mission.title)
+        }
+         
+         let missionRef = Firestore.firestore().collection("Missions").document(missionID)
+         
+         missionRef.delete { error in
+             if let error = error {
+                 print("Error deleting mission: \(error.localizedDescription)")
+             } else {
+                 print("Mission deleted successfully")
+             }
+         }
+     }
 }

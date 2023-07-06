@@ -10,6 +10,7 @@ import SwiftUI
 struct EditMissionView: View {
     @StateObject var viewModel: EditMissionViewModel
     
+    @State var showDeleteAlert = false
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
@@ -29,25 +30,20 @@ struct EditMissionView: View {
                 }
                 
                 Section(header: Text("Dates")) {
-                    HStack {
-                        VStack(alignment: .leading) {
-                            Text("Début")
-                                .font(.subheadline)
-                                .foregroundColor(.gray)
+                    VStack(alignment: .leading) {
+                        HStack {
+                            DatePicker("Le", selection: $viewModel.start, displayedComponents: [.date])
+                                .frame(maxHeight: .infinity, alignment: .top)
+                                .padding(.top, 8)
+
+                            Spacer()
                             
-                            DatePicker("", selection: $viewModel.start, displayedComponents: .date)
-                                .labelsHidden()
-                        }
-                        
-                        Spacer()
-                        
-                        VStack(alignment: .leading) {
-                            Text("Fin")
-                                .font(.subheadline)
-                                .foregroundColor(.gray)
-                            
-                            DatePicker("", selection: $viewModel.end, displayedComponents: .date)
-                                .labelsHidden()
+                            VStack {
+                                DatePicker("De", selection: $viewModel.start, in: viewModel.start..., displayedComponents: [.hourAndMinute])
+                                
+                                DatePicker("À", selection: $viewModel.end, in: viewModel.start..., displayedComponents: [.hourAndMinute])
+                            }
+                            .frame(width: 150)
                         }
                     }
                 }
@@ -97,20 +93,37 @@ struct EditMissionView: View {
                     Section(header: Text("Validation")) {
                         Toggle("Est validée", isOn: $viewModel.isValidated)
                     }
-                    
-                    Section {
-                        Button("Sauvegarder", action: {
-                            viewModel.isValidated ? viewModel.updateMission() : viewModel.refuseNomad()
-                            dismiss()
-                        })
-                        .foregroundColor(.white)
-                        .font(.title2.bold())
-                        .frame(maxWidth: .infinity)
-                        .frame(height: AppDimensions.buttonHeight)
-                        .background(AppDimensions.accentColor.cornerRadius(AppDimensions.cornerRadius))
-                    }
-                    .listRowBackground(Color.clear)
                 }
+                
+                Section {
+                    Button("Sauvegarder", action: {
+                        viewModel.isValidated ? viewModel.updateMission() : viewModel.refuseNomad()
+                        dismiss()
+                    })
+                    .foregroundColor(.white)
+                    .font(.title2.bold())
+                    .frame(maxWidth: .infinity)
+                    .frame(height: AppDimensions.buttonHeight)
+                    .background(AppDimensions.accentColor.cornerRadius(AppDimensions.cornerRadius))
+                }
+                .listRowBackground(Color.clear)
+                
+                Button(action: { self.showDeleteAlert.toggle() }) {
+                    Text("\(Image(systemName: "trash")) Supprimer la mission")
+                }
+                .foregroundColor(.red)
+                .frame(height: AppDimensions.buttonHeight * 0.5)
+                .frame(maxWidth: .infinity)
+                .listRowBackground(Color.clear)
+                
+            }
+            .alert(isPresented: $showDeleteAlert) {
+                Alert(
+                    title: Text("Supprimer la mission"),
+                    message: Text("Êtes vous sûre de vouloir supprimer cette mission?"),
+                    primaryButton: .destructive(Text("Supprimer"), action: viewModel.deleteMission),
+                    secondaryButton: .cancel(Text("Annuler"))
+                )
             }
         }
         .navigationTitle("Mission")
